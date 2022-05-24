@@ -17,7 +17,7 @@ div {
 }
 
 body {
-    font-family: "Lucida Grande";
+    font-family: "Merriweather Sans";
 }
 
 li {
@@ -29,3 +29,67 @@ a {
 }
 
 /* Tulis Style Css Dibawah */
+
+.header-left {
+    float: left;
+}
+
+.logo {
+    padding: 14px 0px 0px 50px;
+}
+
+
+.container {
+    padding: 0 10px;
+    margin: 0 auto;
+}
+
+.top-wrapper {
+    padding: 180px 0 124px 0;
+    background-image: url("assets/Header Image.jpg");
+    background-size: cover;
+    color: white;
+    text-align: center;
+}
+
+.top-wrapper h1 {
+  font-size: 45px;
+  letter-spacing: 5px;
+  margin-bottom: 10px;
+}
+
+header {
+height: 80px;
+width: 100%;
+background-color: rgba(114, 157, 171, 0.72);
+/* Ubah position ke fixed, dan top ke 0 */
+position: fixed;
+top:0;
+/* Ubah z-index ke 10 */
+z-index: 10;
+}
+
+.header-list {
+    padding: 24px 50px 0px 10px;
+    float: right;
+    font-weight: 700;
+    font-size: 20px;
+    font-family: 'Merriweather Sans';
+}
+
+.header-list li {
+    padding: 50px 32px;
+    display: inline;
+    color: white;
+}
+
+
+.btn {
+    padding: 16px 39px 16px 39px;
+   background-color:  rgba(158, 183, 201, 0.91);
+   border-radius: 21px;
+}
+
+.btn-wrapper{
+    padding-top: 40px;
+}
