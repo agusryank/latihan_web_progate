@@ -53,20 +53,20 @@ a {
 }
 
 .top-wrapper h1 {
-  font-size: 45px;
-  letter-spacing: 5px;
-  margin-bottom: 10px;
+    font-size: 45px;
+    letter-spacing: 5px;
+    margin-bottom: 10px;
 }
 
 header {
-height: 80px;
-width: 100%;
-background-color: rgba(114, 157, 171, 0.72);
-/* Ubah position ke fixed, dan top ke 0 */
-position: fixed;
-top:0;
-/* Ubah z-index ke 10 */
-z-index: 10;
+    height: 80px;
+    width: 100%;
+    background-color: rgba(114, 157, 171, 0.72);
+    /* Ubah position ke fixed, dan top ke 0 */
+    position: fixed;
+    top: 0;
+    /* Ubah z-index ke 10 */
+    z-index: 10;
 }
 
 .header-list {
@@ -86,10 +86,89 @@ z-index: 10;
 
 .btn {
     padding: 16px 39px 16px 39px;
-   background-color:  rgba(158, 183, 201, 0.91);
-   border-radius: 21px;
+    background-color: rgba(158, 183, 201, 0.91);
+    border-radius: 21px;
 }
 
-.btn-wrapper{
+.btn-wrapper {
     padding-top: 40px;
+}
+
+
+
+
+.lesson-wrapper {
+    padding: 30px 5px 400px;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+.heading {
+    padding-top: 30px;
+    padding-bottom: 40px;
+    color: #5f5d60;
+}
+
+.heading h2 {
+    font-weight: normal;
+    color: black;
+}
+
+.lesson {
+    float: left;
+    width: 25%;
+}
+
+.lesson-icon {
+    position: center;
+}
+
+.lesson-icon p {
+    top: 44%;
+    width: 100%;
+    color: white;
+}
+
+.text-contents {
+    width: 80%;
+    display: inline-block;
+    margin-top: 15px;
+    font-size: 20px;
+    color: black;
+}
+
+.heading h3 {
+    font-weight: normal;
+}
+
+.message-wrapper {
+    border-bottom: 1px solid #eee;
+    padding-bottom: 80px;
+    text-align: center;
+}
+
+
+
+
+.lesson-wrapper2 {
+    padding: 30px 0px 580px;
+    background-color: #EEF6FF;
+    text-align: center;
+}
+
+.heading2 {
+    padding-top: 30px;
+    padding-bottom: 40px;
+    color: #5f5d60;
+}
+
+.lesson2 {
+    float: left;
+    width: 32%;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.lesson-icon2 {
+    position: center;
 }
